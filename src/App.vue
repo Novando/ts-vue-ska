@@ -1,7 +1,7 @@
 <script setup lang="ts">
-  import { RouterView } from 'vue-router'
-  import NavbarComponent from './components/Navbar.component.vue'
-  import Toast from './components/Toast.component.vue'
+  import { RouterView } from "vue-router"
+  import NavbarComponent from "./components/NavbarComponent.vue"
+  import ToastComponent from "./components/ToastComponent.vue"
 </script>
 
 <template>
@@ -9,6 +9,6 @@
     <NavbarComponent />
     <p>I am a root folder</p>
     <RouterView />
-    <Toast />
+    <ToastComponent />
   </section>
 </template>
