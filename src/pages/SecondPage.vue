@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import { useToaster } from "../stores/toaster.store.ts"
+  import SampleCardOrganism from "../components/organisms/SampleCardOrganism.vue";
 
 
   const toaster = useToaster()
@@ -20,6 +21,7 @@
 <template>
   <main>
     <p>Hello From 2nd Page</p>
+    <SampleCardOrganism class="max-w-lg" />
     <button @click="popErrNoty">
       Test Error Noty
     </button>
