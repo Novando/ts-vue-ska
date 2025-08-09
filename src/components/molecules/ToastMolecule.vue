@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import {useToaster} from "../stores/toaster.store.ts"
+import {useToaster} from "../../stores/toaster.store.ts"
 import {computed} from "vue"
-import CloseCircle from "./svg/CloseCircle.svg.vue"
+import CloseCircleSvg from "../svg/CloseCircleSvg.vue"
 
 
 const toaster = useToaster()
@@ -22,7 +22,7 @@ const noties = computed(() => toaster.toasts)
         'bg-green-700 text-white'
       "
     >
-      <CloseCircle
+      <CloseCircleSvg
         class="absolute right-4 top-4 w-6 cursor-pointer"
         @click="toaster.delNoty(noty.id)"
       />
