@@ -43,3 +43,4 @@ yarn dev
 # if using PNPM
 pnpm dev
 ```
+Note: For more documentation, check README.md file inside corresponded directory

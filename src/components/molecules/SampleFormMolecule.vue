@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import SampleButtonAtomic from "../atomics/SampleButtonAtomic.vue";
+import SampleButtonAtomic from "../atoms/SampleButtonAtomic.vue";
 </script>
 
 <template>
