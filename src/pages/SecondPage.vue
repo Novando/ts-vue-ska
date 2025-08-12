@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { useToaster } from "../stores/toaster.store.ts"
-  import SampleCardOrganism from "../components/organisms/SampleCardOrganism.vue";
+  import SampleCardOrganism from "../components/organisms/SampleCardOrganism.vue"
 
 
   const toaster = useToaster()

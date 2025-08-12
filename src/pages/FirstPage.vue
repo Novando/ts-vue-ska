@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import {envConfig} from "../configs/config.config.ts";
+import {envConfig} from "../configs/config.config.ts"
 </script>
 
 <template>
