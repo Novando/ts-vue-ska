@@ -22,6 +22,12 @@ export default defineConfig([
       "@typescript-eslint/no-explicit-any": "warn",
       "@stylistic/semi": ["error", "never"],
       "@stylistic/quotes": ["error", "double"],
+      "vue/max-attributes-per-line": ["warn", {
+        "singleline": {
+          "max": 5
+        },
+      }],
+      "vue/html-self-closing": "off",
     },
   },
 ])

@@ -12,7 +12,8 @@ node_modules
 dist
 dist-ssr
 *.local
-.env.sample
+.env.*
+.env
 !.env.sample
 package-lock.json
 yarn.lock

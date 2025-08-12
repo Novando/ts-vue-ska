@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import SampleFormMolecule from "../molecules/SampleFormMolecule.vue";
+import SampleFormMolecule from "../molecules/SampleFormMolecule.vue"
 </script>
 
 <template>
